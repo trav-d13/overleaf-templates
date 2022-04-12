@@ -18,6 +18,6 @@ Store for Overleaf/ Latex Template 1
 The style used follows a full width horizontal writing style. Ideal for inserting readable images/ figures and their relevant discussions.
 Not ideal for a scientific article, but rather for a reporting task.
 
-**Bibliography**
+**Bibliography** \
 The bibliography follows the standard latex methodology of inserting .bibtex references into the bibtex file, the template will automatically insert the relevant bibliography.
 
