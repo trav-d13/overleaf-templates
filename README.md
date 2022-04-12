@@ -12,7 +12,7 @@ Store for Overleaf/ Latex Template 1
 **Table of Contents** \
 ![Table of Contents](https://user-images.githubusercontent.com/72265641/162933760-18584c8c-3c6d-419b-8248-03b6ecf7b79d.png)
 
-**Report Style**
+**Report Style** \
 ![Style](https://user-images.githubusercontent.com/72265641/162934655-7ccaa9a4-2155-4d97-9037-b56a93a1e927.png)
 
 The style used follows a full width horizontal writing style. Ideal for inserting readable images/ figures and their relevant discussions.
