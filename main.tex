@@ -1,0 +1,48 @@
+\documentclass[pdftex, 12pt, a4paper]{report}
+\usepackage{newtxtext, newtxmath}
+\usepackage[top=3cm, bottom=3cm, left=2cm, right=2cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage[pdftex]{graphicx}
+\graphicspath{./resources/} 
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{parskip}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\usepackage[sorting=none]{biblatex}
+
+\addbibresource{bib.bib}
+\setstretch{1.0}
+\setlength{\cftfigindent}{0pt}
+\setlength{\cfttabindent}{0pt}
+\renewcommand{\cftdotsep}{1}
+
+% change the following
+\title{\uppercase{Title}}
+\newcommand\fypcode{KEN2410}
+\author{Travis Dawson}
+\date{2022}
+\newcommand\degree{Bachelor of Data Science and Artificial Intelligence}
+\begin{document}
+
+\input{cover.tex}
+\setcounter{page}{1}
+\pagenumbering{roman}
+\input{abstract.tex}
+
+\pagebreak
+\addcontentsline{toc}{chapter}{Contents}
+\tableofcontents
+
+\cleardoublepage
+\pagenumbering{arabic}
+
+\chapter{Chapter Title}
+
+
+\end{document}
